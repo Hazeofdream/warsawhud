@@ -218,7 +218,7 @@
 			"labelText"			"#TF_Scout"
 			"bgcolor_override"	"PanelBlack3"
 			"mouseinputenabled"	"0"
-			"visible"			"0"
+			"visible"			"1"
 
 			"pin_to_sibling"	"ClassScout"
 			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -271,8 +271,7 @@
 			"labelText"			"#TF_Soldier"
 			"bgcolor_override"	"PanelBlack3"
 			"mouseinputenabled"	"0"
-			"visible"			"0"
-			"visible"			"0"
+			"visible"			"1"
 
 			"pin_to_sibling"	"ClassSoldier"
 			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -325,7 +324,7 @@
 			"labelText"			"#TF_Pyro"
 			"bgcolor_override"	"PanelBlack3"
 			"mouseinputenabled"	"0"
-			"visible"			"0"
+			"visible"			"1"
 
 			"pin_to_sibling"	"ClassPyro"
 			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -378,7 +377,7 @@
 			"labelText"			"#TF_Demoman"
 			"bgcolor_override"	"PanelBlack3"
 			"mouseinputenabled"	"0"
-			"visible"			"0"
+			"visible"			"1"
 
 			"pin_to_sibling"	"ClassDemoman"
 			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -431,7 +430,7 @@
 			"labelText"			"#TF_HWGuy"
 			"bgcolor_override"	"PanelBlack3"
 			"mouseinputenabled"	"0"
-			"visible"			"0"
+			"visible"			"1"
 
 			"pin_to_sibling"	"ClassHWGuy"
 			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -484,7 +483,7 @@
 			"labelText"			"#TF_Engineer"
 			"bgcolor_override"	"PanelBlack3"
 			"mouseinputenabled"	"0"
-			"visible"			"0"
+			"visible"			"1"
 
 			"pin_to_sibling"	"ClassEngineer"
 			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -537,7 +536,7 @@
 			"labelText"			"#TF_Medic"
 			"bgcolor_override"	"PanelBlack3"
 			"mouseinputenabled"	"0"
-			"visible"			"0"
+			"visible"			"1"
 
 			"pin_to_sibling"	"ClassMedic"
 			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -590,7 +589,7 @@
 			"labelText"			"#TF_Sniper"
 			"bgcolor_override"	"PanelBlack3"
 			"mouseinputenabled"	"0"
-			"visible"			"0"
+			"visible"			"1"
 
 			"pin_to_sibling"	"ClassSniper"
 			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -643,7 +642,7 @@
 			"labelText"			"#TF_Spy"
 			"bgcolor_override"	"PanelBlack3"
 			"mouseinputenabled"	"0"
-			"visible"			"0"
+			"visible"			"1"
 
 			"pin_to_sibling"	"ClassSpy"
 			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
