@@ -2,6 +2,37 @@
 
 "Resource/UI/CharInfoPanel.res"
 {
+	"character_info"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"character_info"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"settitlebarvisible"	"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"					"27 27 27 0"
+		"infocus_bgcolor_override"			"27 27 27 0"
+		"outoffocus_bgcolor_override"		"27 27 27 0"
+
+		"title"								"#CharInfoAndSetup"
+		"title_font"						"HudFontMedium"
+		"titletextinsetX"					"40"
+		"titletextinsetY"					"0"
+		"titlebarfgcolor_override"			"ColorGrey192"
+		"titlebardisabledfgcolor_override"	"ColorGrey192"
+		"titlebarbgcolor_override"			"PanelMain"
+
+		"clientinsetx_override"				"0"
+		"sheetinset_bottom"					"20"
+	}
+
 	"Background"
 	{
 		"ControlName"		"ImagePanel"
