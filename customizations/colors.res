@@ -26,7 +26,7 @@ Scheme
 		"HealNum"					"0 255 176 255"			// Healing from medkits, medigun, dispensers, etc.
 		"DamageNum"					"255 80 0 255"			// Unused (?) controlled by in-game commands now
 		// CROSSHAIR COLORS
-		"Crosshair"					"255 255 255 255"		// Crosshair color
+		"Crosshair"					"255 232 0 255"		// Crosshair color
 		"Hitmarker"					"255 80 0 255"			// Hitmarker color
 		// UBER COLORS
 		"UberBar"					"255 255 255 255"		// Uber bar color

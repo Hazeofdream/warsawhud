@@ -12,7 +12,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"bgcolor_override"	"Blank"
 		"mouseinputenabled"	"1"
 
@@ -32,7 +32,7 @@
 			"font"						"Font12"
 			"labelText"					"WARSAWHUD 1.0.4.1"
 			"textalignment"				"east"
-			"urltext"					"https://github.com/p3tr1ch0r/warsawhud"
+			"urltext"					"https://github.com/Hazeofdream/tf2_warsawhud"
 		}
 	}
 }

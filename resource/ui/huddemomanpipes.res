@@ -46,8 +46,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs6+2"
+		"xpos"			"cs2.8"
+		"ypos"			"c173"
 		"xpos_minmode"	"rs3-5-6"
 		"ypos_minmode"	"rs1-5"
 		"zpos"			"1"
@@ -168,8 +168,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs6+2"
+		"xpos"			"cs2.8"
+		"ypos"			"c173"
 		"xpos_minmode"	"rs3-5-6"
 		"ypos_minmode"	"rs1-5"
 		"zpos"			"1"

@@ -5,8 +5,8 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"cs1"
-		"ypos"					"c92"
+		"xpos"					"cs2.8"
+		"ypos"					"c185"
 		"xpos_minmode"			"rs3-5-6"
 		"ypos_minmode"			"rs2-5-2"
 		"wide"					"60"
@@ -17,7 +17,7 @@
 		"MeterBG"				"ColorGrey160"
 	}
 
-	"ItemEffectMeterLabel"
+	"ItemEffectMeterLabel" // actual name of label
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
@@ -52,7 +52,7 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"0"
-		"visible_minmode"		"1"
+		"visible_minmode"		"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"Z"
