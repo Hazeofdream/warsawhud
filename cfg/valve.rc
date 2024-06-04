@@ -19,6 +19,7 @@ startupmenu
 sv_unlockedchapters 99
 
 // Apply HUD settings
+vgui_cache_res_files 1 // change this to 0 to make hud editing slightly less annoying)
 tf_contract_progress_show 2
 tf_hud_target_id_show_avatars 0
 cl_disablehtmlmotd 1
