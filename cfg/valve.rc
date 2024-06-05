@@ -8,6 +8,8 @@ r_decal_cullsize 1
 // Stuff command line statements
 stuffcmds
 
+exec autoexec.cfg
+
 // Display the startup level
 startupmenu
 sv_unlockedchapters 99
