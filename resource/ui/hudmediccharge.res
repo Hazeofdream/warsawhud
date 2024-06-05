@@ -1,6 +1,6 @@
 "Resource/UI/HudMedicCharge.res"
 {
-	"Background"
+	"Background" // old hud element
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"Background"
@@ -17,15 +17,15 @@
 		"teambg_3"			"../hud/medic_charge_blue_bg"
 	}
 
-	"ChargeLabel"
+	"ChargeLabel" // Actual charge label
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ChargeLabel"
-		"xpos"				"cs-0.5"
-		"ypos"				"c12"
+		"xpos"				"cs3.97"
+		"ypos"				"cs6"
 		"zpos"				"2"
-		"wide"				"40"
-		"tall"				"20"
+		"wide"				"60"
+		"tall"				"30"
 		"autoResize"		"1"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -35,18 +35,18 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Font10"
+		"font"				"Font20"
 		"fgcolor"			"AmmoClip"
 	}
 
-	"ChargeBG"
+	"ChargeBG" // Background box for uber
 	{
 		"ControlName"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"20"
+		"wide"			"60"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"PanelBlack3"
@@ -95,7 +95,7 @@
 		"fgcolor"			"ColorWhite"
 	}
 
-	"ChargeMeter"
+	"ChargeMeter" // Medigun charge meter
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"

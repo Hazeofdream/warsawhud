@@ -17,8 +17,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"DamageAccountValue"
-		"xpos"					"c0-s2"
-		"ypos"					"c43"
+		"xpos"					"cs-5"
+		"ypos"					"c160"
 		"xpos_minmode"			"rs3-5-6"
 		"ypos_minmode"			"rs2-5-18"
 		"zpos"					"2"
