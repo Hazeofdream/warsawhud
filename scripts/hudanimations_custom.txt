@@ -167,7 +167,7 @@ event HudMedicCharged
 	Animate		ChargeMeter 					FgColor		"UberBarCharged2"		Linear 0.1 0.2
 
 	Animate 	ChargeLabel						FgColor		"ColorBlack"			Linear 0.0 0.2
-	Animate 	IndividualChargesLabel			FgColor		"ColorBlack"			Linear 0.0 0.2
+	//Animate 	IndividualChargesLabel			FgColor		"ColorBlack"			Linear 0.0 0.2
 	Animate 	ChargeBG						BgColor		"UberBarCharged1"		Linear 0.0 0.2
 
 	RunEvent 	HudMedicChargedLoop				0.2

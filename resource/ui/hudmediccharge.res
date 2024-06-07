@@ -54,7 +54,7 @@
 		"pin_to_sibling"	"ChargeLabel"
 	}
 
-	"IndividualChargesLabel"
+	"IndividualChargesLabel" // Vaccinator Charges Count
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"IndividualChargesLabel"
@@ -116,7 +116,7 @@
 		"bgcolor_override"		"PanelBlack3"
 	}
 
-	"ChargeMeter1"
+	"ChargeMeter1" // Vaccinator Bar
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter1"
