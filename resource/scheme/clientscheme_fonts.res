@@ -144,16 +144,53 @@ Scheme
 			"1"
 			{
 				"name"			"Neusa"
-				"tall"			"12"
+				"tall"										"14"
 				"additive"		"0"
 				"antialias"		"1"
+				"range"										"0x0000 0x00FF"
+				"yres"										"480 599"
 			}
 			"2"
 			{
 				"name"			"Neusa"
-				"tall"			"12"
+				"tall"			"15"
 				"range"			"0x0000 0x00FF"
 				"weight"		"400"
+			}
+			"3"
+			{
+				"name"										"Neusa"
+				"tall"										"16"
+				"range"										"0x0000 0x00FF"
+				"yres"										"768 1023"
+				"antialias"									"1"
+			}
+			"4"
+			{
+				"name"										"Neusa"
+				"tall"										"22"
+				"range"										"0x0000 0x00FF"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Neusa"
+				"tall"										"22"
+				"range"										"0x0000 0x017F"
+				"antialias"									"1"
+			}
+			"6"
+			{
+				"name"										"Neusa"
+				"tall"										"12"
+				"range"										"0x0000 0x00FF"
+			}
+			"7"
+			{
+				"name"										"Neusa"
+				"tall"										"12"
+				"range"										"0x0000 0x00FF"
 			}
 		}
 		"DefaultOutline"
@@ -356,6 +393,50 @@ Scheme
 				"antialias"		"1"
 				"additive"		"1"
 			}
+			"2"
+			{
+				"name"			"Neusa"
+				"name"			"Helvetica" [$OSX]
+				"tall"										"13"
+				"yres"										"600 767"
+				"tall"			"18"
+				"weight"		"400"
+				"antialias"		"1"
+				"additive"		"1"
+			}
+			"3"
+			{
+				"name"			"Neusa"
+				"name"			"Helvetica" [$OSX]
+				"tall"										"14"
+				"yres"										"768 1023"
+				"tall"			"18"
+				"weight"		"400"
+				"antialias"		"1"
+				"additive"		"1"
+			}
+			"4"
+			{
+				"name"			"Neusa"
+				"name"			"Helvetica" [$OSX]
+				"tall"										"20"
+				"yres"										"1024 1199"
+				"tall"			"18"
+				"weight"		"400"
+				"antialias"		"1"
+				"additive"		"1"
+			}
+			"5"
+			{
+				"name"			"Neusa"
+				"name"			"Helvetica" [$OSX]
+				"tall"										"12"
+				"antialias"									"1"
+				"tall"			"18"
+				"weight"		"400"
+				"antialias"		"1"
+				"additive"		"1"
+			}
 		}
 
 		"PlayerPanelPlayerName"
@@ -415,7 +496,6 @@ Scheme
 			{
 				"name"			"Neusa"
 				"tall"			"24"
-				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
 				"yres"			"480 599"
@@ -424,7 +504,6 @@ Scheme
 			{
 				"name"			"Neusa"
 				"tall"			"32"
-				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
 				"yres"			"600 767"
@@ -433,7 +512,6 @@ Scheme
 			{
 				"name"			"Neusa"
 				"tall"			"44"
-				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
 				"yres"			"768 1023"
@@ -442,7 +520,6 @@ Scheme
 			{
 				"name"			"Neusa"
 				"tall"			"48"
-				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 				"yres"			"1024 1199"
@@ -450,11 +527,9 @@ Scheme
 			"5"
 			{
 				"name"			"Neusa"
-				"tall"			"52"
-				"weight"		"400"
+				"tall"			"24"
 				"additive"		"0"
 				"antialias" 	"1"
-				"yres"			"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -474,6 +549,16 @@ Scheme
 			{
 				"name"			"Neusa"
 				"tall"			"35"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias"		"1"
+				"yres"										"1 1199"
+			}
+			"2"
+			{
+				"name"										"Neusa"
+				"tall"										"10"
+				"antialias"									"1"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
@@ -755,8 +840,8 @@ Scheme
 			{
 				"bitmap"		"1"
 				"name"			"Buttons"
-				"scalex"		"0.5"
-				"scaley"		"0.5"
+				"scalex"		"0.2"
+				"scaley"		"0.2"
 			}
 		}
 		"GameUIButtonsSmall"
@@ -1219,8 +1304,8 @@ Scheme
 			"1"
 			{
 				"name"			"Neusa"
-				"tall"			"20"
-				"weight"		"400"
+				"tall"			"10"
+				"weight"		"10"
 				"range"			"0x0000 0x007F"
 				"antialias" 	"1"
 				"additive"		"0"
