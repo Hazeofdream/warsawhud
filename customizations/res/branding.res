@@ -30,7 +30,7 @@
 			"proportionaltoparent"		"1"
 			"fgcolor_override"			"ColorWhiteTransparent64"
 			"font"						"Font12"
-			"labelText"					"Warsaw 2.0 V1.0"
+			"labelText"					"Warsaw CF v2.1"
 			"textalignment"				"east"
 			"urltext"					"https://github.com/Hazeofdream/warsawhud"
 		}

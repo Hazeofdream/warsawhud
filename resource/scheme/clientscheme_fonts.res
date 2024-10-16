@@ -144,11 +144,11 @@ Scheme
 			"1"
 			{
 				"name"			"Neusa"
-				"tall"										"14"
+				"tall"			"14"
 				"additive"		"0"
 				"antialias"		"1"
-				"range"										"0x0000 0x00FF"
-				"yres"										"480 599"
+				"range"			"0x0000 0x00FF"
+				"yres"			"480 599"
 			}
 			"2"
 			{
@@ -159,38 +159,38 @@ Scheme
 			}
 			"3"
 			{
-				"name"										"Neusa"
-				"tall"										"16"
-				"range"										"0x0000 0x00FF"
-				"yres"										"768 1023"
-				"antialias"									"1"
+				"name"			"Neusa"
+				"tall"			"16"
+				"range"			"0x0000 0x00FF"
+				"yres"			"768 1023"
+				"antialias"		"1"
 			}
 			"4"
 			{
-				"name"										"Neusa"
-				"tall"										"22"
-				"range"										"0x0000 0x00FF"
-				"yres"										"1024 1199"
-				"antialias"									"1"
+				"name"			"Neusa"
+				"tall"			"22"
+				"range"			"0x0000 0x00FF"
+				"yres"			"1024 1199"
+				"antialias"		"1"
 			}
 			"5"
 			{
-				"name"										"Neusa"
-				"tall"										"22"
-				"range"										"0x0000 0x017F"
-				"antialias"									"1"
+				"name"			"Neusa"
+				"tall"			"22"
+				"range"			"0x0000 0x017F"
+				"antialias"		"1"
 			}
 			"6"
 			{
-				"name"										"Neusa"
-				"tall"										"12"
-				"range"										"0x0000 0x00FF"
+				"name"			"Neusa"
+				"tall"			"12"
+				"range"			"0x0000 0x00FF"
 			}
 			"7"
 			{
-				"name"										"Neusa"
-				"tall"										"12"
-				"range"										"0x0000 0x00FF"
+				"name"			"Neusa"
+				"tall"			"12"
+				"range"			"0x0000 0x00FF"
 			}
 		}
 		"DefaultOutline"
@@ -397,8 +397,8 @@ Scheme
 			{
 				"name"			"Neusa"
 				"name"			"Helvetica" [$OSX]
-				"tall"										"13"
-				"yres"										"600 767"
+				"tall"			"13"
+				"yres"			"600 767"
 				"tall"			"18"
 				"weight"		"400"
 				"antialias"		"1"
@@ -408,8 +408,8 @@ Scheme
 			{
 				"name"			"Neusa"
 				"name"			"Helvetica" [$OSX]
-				"tall"										"14"
-				"yres"										"768 1023"
+				"tall"			"14"
+				"yres"			"768 1023"
 				"tall"			"18"
 				"weight"		"400"
 				"antialias"		"1"
@@ -419,8 +419,8 @@ Scheme
 			{
 				"name"			"Neusa"
 				"name"			"Helvetica" [$OSX]
-				"tall"										"20"
-				"yres"										"1024 1199"
+				"tall"			"20"
+				"yres"			"1024 1199"
 				"tall"			"18"
 				"weight"		"400"
 				"antialias"		"1"
@@ -430,8 +430,8 @@ Scheme
 			{
 				"name"			"Neusa"
 				"name"			"Helvetica" [$OSX]
-				"tall"										"12"
-				"antialias"									"1"
+				"tall"			"12"
+				"antialias"		"1"
 				"tall"			"18"
 				"weight"		"400"
 				"antialias"		"1"
@@ -552,13 +552,13 @@ Scheme
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
-				"yres"										"1 1199"
+				"yres"			"1 1199"
 			}
 			"2"
 			{
-				"name"										"Neusa"
-				"tall"										"10"
-				"antialias"									"1"
+				"name"			"Neusa"
+				"tall"			"10"
+				"antialias"		"1"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"

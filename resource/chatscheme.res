@@ -203,7 +203,7 @@ Scheme
 	{
 		"Default"
 		{
-			"isproportional"								"only"
+			"isproportional"	"only"
 
 			"1"
 			{
@@ -340,7 +340,7 @@ Scheme
 
 		"ChatFont"
 		{
-			"isproportional"								"only"
+			"isproportional"	"only"
 
 			"1"
 			{
