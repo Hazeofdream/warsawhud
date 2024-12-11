@@ -45,6 +45,12 @@
 		{
 			"visible"	"0"
 		}
+
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"RightSideBG"
@@ -70,6 +76,12 @@
 		}
 
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -112,6 +124,12 @@
 		{
 			"visible"	"0"
 		}
+
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 	"BlueScoreShadow"
 	{
@@ -141,6 +159,12 @@
 		}
 
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -177,6 +201,12 @@
 		{
 			"visible"	"0"
 		}
+
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"RedScoreShadow"
@@ -207,6 +237,12 @@
 		}
 
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}

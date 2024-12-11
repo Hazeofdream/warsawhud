@@ -144,11 +144,11 @@ Scheme
 			"1"
 			{
 				"name"			"Neusa"
-				"tall"			"14"
+				"tall"										"14"
 				"additive"		"0"
 				"antialias"		"1"
-				"range"			"0x0000 0x00FF"
-				"yres"			"480 599"
+				"range"										"0x0000 0x00FF"
+				"yres"										"480 599"
 			}
 			"2"
 			{
@@ -159,38 +159,38 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Neusa"
-				"tall"			"16"
-				"range"			"0x0000 0x00FF"
-				"yres"			"768 1023"
-				"antialias"		"1"
+				"name"										"Neusa"
+				"tall"										"16"
+				"range"										"0x0000 0x00FF"
+				"yres"										"768 1023"
+				"antialias"									"1"
 			}
 			"4"
 			{
-				"name"			"Neusa"
-				"tall"			"22"
-				"range"			"0x0000 0x00FF"
-				"yres"			"1024 1199"
-				"antialias"		"1"
+				"name"										"Neusa"
+				"tall"										"22"
+				"range"										"0x0000 0x00FF"
+				"yres"										"1024 1199"
+				"antialias"									"1"
 			}
 			"5"
 			{
-				"name"			"Neusa"
-				"tall"			"22"
-				"range"			"0x0000 0x017F"
-				"antialias"		"1"
+				"name"										"Neusa"
+				"tall"										"22"
+				"range"										"0x0000 0x017F"
+				"antialias"									"1"
 			}
 			"6"
 			{
-				"name"			"Neusa"
-				"tall"			"12"
-				"range"			"0x0000 0x00FF"
+				"name"										"Neusa"
+				"tall"										"12"
+				"range"										"0x0000 0x00FF"
 			}
 			"7"
 			{
-				"name"			"Neusa"
-				"tall"			"12"
-				"range"			"0x0000 0x00FF"
+				"name"										"Neusa"
+				"tall"										"12"
+				"range"										"0x0000 0x00FF"
 			}
 		}
 		"DefaultOutline"
@@ -261,7 +261,7 @@ Scheme
 			"5"
 			{
 				"name"			"Neusa"
-				"tall"			"22"
+				"tall"			"9"
 				"weight"		"400"
 				"range"			"0x0000 0x017F"
 				"yres"			"1200 6000"
@@ -314,7 +314,7 @@ Scheme
 			"5"
 			{
 				"name"			"Neusa"
-				"tall"			"16"
+				"tall"			"9"
 				"weight"		"400"
 				"range"			"0x0000 0x017F"
 				"yres"			"1200 6000"
@@ -360,7 +360,7 @@ Scheme
 			"5"
 			{
 				"name"			"Neusa"
-				"tall"			"30"
+				"tall"			"18"
 				"weight"		"400"
 				"range"			"0x0000 0x017F"
 				"yres"			"1200 6000"
@@ -397,8 +397,8 @@ Scheme
 			{
 				"name"			"Neusa"
 				"name"			"Helvetica" [$OSX]
-				"tall"			"13"
-				"yres"			"600 767"
+				"tall"										"13"
+				"yres"										"600 767"
 				"tall"			"18"
 				"weight"		"400"
 				"antialias"		"1"
@@ -408,8 +408,8 @@ Scheme
 			{
 				"name"			"Neusa"
 				"name"			"Helvetica" [$OSX]
-				"tall"			"14"
-				"yres"			"768 1023"
+				"tall"										"14"
+				"yres"										"768 1023"
 				"tall"			"18"
 				"weight"		"400"
 				"antialias"		"1"
@@ -419,8 +419,8 @@ Scheme
 			{
 				"name"			"Neusa"
 				"name"			"Helvetica" [$OSX]
-				"tall"			"20"
-				"yres"			"1024 1199"
+				"tall"										"20"
+				"yres"										"1024 1199"
 				"tall"			"18"
 				"weight"		"400"
 				"antialias"		"1"
@@ -430,8 +430,8 @@ Scheme
 			{
 				"name"			"Neusa"
 				"name"			"Helvetica" [$OSX]
-				"tall"			"12"
-				"antialias"		"1"
+				"tall"										"12"
+				"antialias"									"1"
 				"tall"			"18"
 				"weight"		"400"
 				"antialias"		"1"
@@ -484,9 +484,9 @@ Scheme
 			"5"
 			{
 				"name"			"Verdana"
-				"tall"			"24"
+				"tall"			"12"
 				"weight"		"400"
-				"yres"			"1200 10000"
+				"antialias"		"1"
 			}
 		}
 
@@ -496,6 +496,7 @@ Scheme
 			{
 				"name"			"Neusa"
 				"tall"			"24"
+				"tall_lodef"	"80"
 				"additive"		"0"
 				"antialias"		"1"
 				"yres"			"480 599"
@@ -504,6 +505,7 @@ Scheme
 			{
 				"name"			"Neusa"
 				"tall"			"32"
+				"tall_lodef"	"120"
 				"additive"		"0"
 				"antialias"		"1"
 				"yres"			"600 767"
@@ -532,49 +534,56 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontGiantBold"
 		{
 			"1"
 			{
 				"name"			"Neusa"
 				"tall"			"44"
+				"tall_lodef"	"52"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontBiggerBold"
 		{
 			"1"
 			{
 				"name"			"Neusa"
 				"tall"			"35"
+				"tall_lodef"	"40"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
-				"yres"			"1 1199"
+				"yres"										"1 1199"
 			}
 			"2"
 			{
-				"name"			"Neusa"
-				"tall"			"10"
-				"antialias"		"1"
+				"name"										"Neusa"
+				"tall"										"10"
+				"antialias"									"1"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
+
 		"HudFontBig"
 		{
 			"1"
 			{
 				"name"			"Neusa"
-				"tall"			"35"
+				"tall"			"36"
+				"tall_hidef"	"48"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontMediumBig"
 		{
 			"1"
@@ -586,6 +595,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -603,22 +613,34 @@ Scheme
 			{
 				"name"			"Neusa"
 				"tall"			"24"
+				"tall_lodef"	"28"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
+
 		"HudFontMediumSecondary"
 		{
 			"1"
 			{
 				"name"			"Neusa"
-				"tall"			"20"
-				"weight"		"400"
+				"tall"			"24"
+				"weight"		"500"
+				"yres"			"1 1199"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+			"2"
+			{
+				"name"			"Neusa"
+				"tall"			"10"
+				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontMediumBold"
 		{
 			"1"
@@ -630,6 +652,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontMediumSmallBold"
 		{
 			"1"
@@ -641,6 +664,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontMediumSmall"
 		{
 			"1"
@@ -652,17 +676,21 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontMediumSmallSecondary"
 		{
 			"1"
 			{
 				"name"			"Neusa"
 				"tall"			"16"
+				"tall_hidef"	"24"
+				"tall_lodef"	"20"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontSmall"
 		{
 			"1"
@@ -674,6 +702,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -685,6 +714,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontSmallBold"
 		{
 			"1"
@@ -696,6 +726,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontSmallBoldShadow"
 		{
 			"1"
@@ -708,6 +739,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+
 		"HudFontSmallest"
 		{
 			"1"
@@ -719,6 +751,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"HudFontSmallestShadow"
 		{
 			"1"
@@ -731,6 +764,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+
 		"HudFontSmallestBold"
 		{
 			"1"
@@ -2060,7 +2094,8 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"7"
+				"tall"			"7" [!$POSIX]
+				"tall"			"8" [$POSIX]
 				"weight"		"400"
 				"additive"		"1"
 				"antialias" 	"1"
@@ -2081,7 +2116,8 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"7"
+				"tall"			"7" [!$POSIX]
+				"tall"			"8" [$POSIX]
 				"weight"		"400"
 				"blur"			"3"
 				"additive"		"1"
