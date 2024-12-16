@@ -1197,7 +1197,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"xpos"				"r200"
-		"ypos"				"rs1"
+		"ypos"				"rs1
 		"zpos"				"10"
 		"wide"				"270"
 		"tall"				"f0"

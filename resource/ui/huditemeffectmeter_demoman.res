@@ -1,15 +1,15 @@
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"cs2.8"
-		"ypos"					"c185"
+		"xpos"					"cs2.687"
+		"ypos"					"c195"
 		"xpos_minmode"			"rs3-5-6"
 		"ypos_minmode"			"rs2-5-2"
-		"wide"					"60"
+		"wide"					"63"
 		"tall"					"40"
 		"wide_minmode"			"28"
 		"tall_minmode"			"14"
