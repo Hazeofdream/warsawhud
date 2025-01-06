@@ -63,8 +63,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"wide"			"f0"
+		"ypos"			"90"
+		"wide"			"200"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -74,13 +74,8 @@
 		"textAlignment"	"center"
 		"font"			"Font14"
 		"allcaps"		"1"
-		"bgcolor_override"	"PanelBlack3"
+		"bgcolor_override"	"PanelBlack4"
 		"fgcolor_override"	"ColorWhite"
-
-		if_mvm
-		{
-			"ypos"		"90"
-		}
 	}
 
 	"BuyBackLabel"
