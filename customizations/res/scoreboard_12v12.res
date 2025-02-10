@@ -1,1 +1,1 @@
-"#base" "../../resource/ui/scoreboard-base.res"
+"#base" "../../resource/ui/scoreboard.res"
