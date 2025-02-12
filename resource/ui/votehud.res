@@ -560,7 +560,7 @@
 		"PaintBackgroundType"	"0"
 
 		"header_font"				"ItemFontNameLarge"
-		"player_font"				"Default"
+		"player_font"				"Neusa"
 		"header_fgcolor"			"AccentMain"
 		"issue_width"				"180"
 		"issue_font"				"ItemFontNameSmall"
