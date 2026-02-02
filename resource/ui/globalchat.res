@@ -16,7 +16,7 @@
 		"border"		"NoBorder"
 
 		"log_font_small"			"HudFontSmall"
-		"log_font_medium"			"HudFontMediumSmallSecondary"
+		"log_font_medium"			"HudFontSmallest"
 		"log_font_large"			"HudFontMediumSecondary"
 
 		"chat_color_default"		"ColorWhite"
