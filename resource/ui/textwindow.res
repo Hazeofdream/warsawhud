@@ -117,7 +117,7 @@
 		"enabled"			"1"
 		"paintborder"		"0"
 		"textAlignment"		"center"
-		"labelText"			"WELCOME"
+		"labelText"			"MOTD"
 		"fgcolor"			"ColorWhite"
 		"paintbackground"	"1"
 		"bgcolor_override"	"PanelBlack2"

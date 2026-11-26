@@ -14,6 +14,10 @@ event HudHealthBonusPulse
 	Animate		PlayerHealthBackground			BgColor	"HealthBuffTransparent"		Linear	0.0	0.1
 
 	// Events
+	StopEvent	HudHealthDyingPulse				0.0
+	StopEvent	HudHealthDyingPulseCycle1		0.0
+	StopEvent	HudHealthDyingPulseCycle2		0.0
+
 	RunEvent	HudHealthBonusPulseCycle1 		0.00
 }
 
@@ -51,6 +55,7 @@ event HudHealthBonusPulseStop
 	// Events
 	RunEvent	HudHealthReset					0.0
 	
+	StopEvent	HudHealthBonusPulse				0.0
 	StopEvent	HudHealthBonusPulseCycle1		0.0
 	StopEvent	HudHealthBonusPulseCycle2		0.0
 }
@@ -69,6 +74,10 @@ event HudHealthDyingPulse
 	Animate		PlayerHealthBackground			BgColor	"HealthHurtTransparent"		Linear	0.0	0.1
 
 	// Events
+	StopEvent	HudHealthBonusPulse				0.0
+	StopEvent	HudHealthBonusPulseCycle1		0.0
+	StopEvent	HudHealthBonusPulseCycle2		0.0
+
 	RunEvent	HudHealthDyingPulseCycle1 		0.1
 }
 
@@ -106,6 +115,7 @@ event HudHealthDyingPulseStop
 	// Events
 	RunEvent	HudHealthReset					0.0
 	
+	StopEvent	HudHealthDyingPulse				0.0
 	StopEvent	HudHealthDyingPulseCycle1		0.0
 	StopEvent	HudHealthDyingPulseCycle2		0.0
 }
