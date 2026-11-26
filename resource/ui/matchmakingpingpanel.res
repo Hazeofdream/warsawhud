@@ -52,6 +52,34 @@
 		"mouseinputenabled"	"0"
 	}
 
+	"CloseButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButton"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"10000"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"labelText"		"x"
+		"command"		"nav_close"
+		"textAlignment"	"center"
+		"font"			"SmallIcons"
+
+		"defaultBgColor_override"	"Blank"
+		"armedBgColor_override"		"ColorNegative"
+		"defaultFgColor_override"	"ColorWhite"
+		"armedFgColor_override"		"ColorBlack"
+
+		if_left
+		{
+			"xpos"		"rs1"
+			"labelText"	"x"
+		}
+	}
+
 	"InviteModeLabel"
 	{
 		"ControlName"		"Label"
@@ -236,6 +264,7 @@
 		"labeltext"		""
 		"textAlignment"	"west"
 		"font"			"Font12"
+		"fgcolor_override"	"ColorWhite"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -266,10 +295,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DataCenterContainer"
-		"xpos"			"rs1-10"
+		"xpos"			"5"
 		"ypos"			"200"
 		"zpos"			"100"
-		"wide"			"f37"
+		"wide"			"f10"
 		"tall"			"f220"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -305,7 +334,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"AccentMain"
 				}
 		
 				"UpButton"
@@ -334,7 +363,7 @@
 			"tall"			"f0"
 			"zpos"			"5"
 			"proportionaltoparent"	"1"
-			"border"		"InnerShadowBorder"
+			"border"		"NoBorder"
 			"mouseinputenabled"	"0"
 		}
 			
@@ -350,9 +379,10 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
+			"bgcolor_override"	"PanelLight"
 
-			"paintborder"	"1"
-			"border"		"ReplayDefaultBorder"
+			"paintborder"	"0"
+			"border"		"NoBorder"
 		}
 	}
 }
