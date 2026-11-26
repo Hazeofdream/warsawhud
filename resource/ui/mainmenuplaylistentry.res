@@ -53,13 +53,34 @@
 		"fieldName"		"ToolTipHack"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"490"
+		"zpos"			"50"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
+		"visible"		"0"		// the game toggles this; forcing it on leaves tooltips stuck
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
 		"eatmouseinput"	"0"
+		"showtooltipswhenmousedisabled"	"1"
+	}
+
+	// Tooltip catcher for a disabled ModeButton ("You are already queued for this mode." etc).
+	// The game shows this over the button and hides the tooltip when the cursor leaves it.
+	// Covers the whole entry because ModeButton fills the entry in this HUD.
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"51"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent"	"1"
 	}
 
 	"ModeButton"

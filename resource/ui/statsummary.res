@@ -32,6 +32,7 @@
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -41,11 +42,88 @@
 	}
 
 
+	// Map thumbnail: the game shows this panel and fills MapImage with the map's thumbnail
+	// (vgui/maps/menu_thumb_<map>, 128x128) when one exists. The wallpaper in "Background"
+	// stays visible behind it.
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MapInfo"
-		"xpos"			"9999"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"1"
+		"bgcolor_override"	"Blank"
+
+		"Background"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Background"
+			"xpos"			"9999"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"image"			""
+		}
+
+		// Thumbnail centered above the map name (MapLabel starts at c-30)
+		"MapImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MapImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"c-140"
+			"zpos"			"1"
+			"wide"			"100"
+			"tall"			"100"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"
+		}
+
+		"ContributedLabel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"ContributedLabel"
+			"xpos"			"9999"
+			"visible"		"0"
+		}
+
+		"InfoBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"InfoBG"
+			"xpos"			"9999"
+			"visible"		"0"
+		}
+
+		"Title"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Title"
+			"xpos"			"9999"
+			"visible"		"0"
+		}
+
+		"MapAuthors"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"MapAuthors"
+			"xpos"			"9999"
+			"visible"		"0"
+		}
+
+		"MapLeaderboardTitle"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"MapLeaderboardTitle"
+			"xpos"			"9999"
+			"visible"		"0"
+		}
 	}
 
 	"OnYourWayLabel"
