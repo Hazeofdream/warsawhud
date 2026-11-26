@@ -498,4 +498,29 @@
 			"allow_rot"				"0"
 		}
 	}
+
+	// A/D page shortcuts (same as the backpack)
+	"NextShortcut"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"NextShortcut"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"wide"				"1"
+		"tall"				"1"
+		"labelText"			"&D"
+		"command"			"nextpage"
+	}
+
+	"PrevShortcut"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"PrevShortcut"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"wide"				"1"
+		"tall"				"1"
+		"labelText"			"&A"
+		"command"			"prevpage"
+	}
 }
