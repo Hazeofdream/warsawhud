@@ -23,6 +23,9 @@
 		"score_width"		"20"
 		"ping_width"		"25"
 		"killstreak_width"	"18"
+		"killstreak_image_width" "15"
+	}
+
 	"BlueScoreBG"
 	{
 		"ControlName"	"EditablePanel"
